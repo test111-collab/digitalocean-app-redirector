@@ -41,7 +41,7 @@ import urllib.parse
 # Point onto your Teamserver or a landing page you want to reverse-proxy.
 # Cannot contain http:// , https:// and trailing slash
 
-teamserver          = os.environ.get('TEAMSERVER', 'www.comunenews.com')
+teamserver          = os.environ.get('TEAMSERVER', 'www.baidu.com')
 
 # If true, will set Host header with value from `teamserver`
 rewrite_host_header = True
